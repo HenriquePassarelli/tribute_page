@@ -1,0 +1,77 @@
+*{
+    font-family: 'Inconsolata', monospace, sans-serif;
+}
+body
+{
+    margin: 0 2rem 0 2rem;
+    font-size: 120%;
+
+}
+header
+{
+    text-align: center;
+    background-color: rgb(197, 197, 197);
+    border-radius: .5rem;
+    padding: .5rem;
+    margin: 1rem;
+}
+main{
+    text-shadow: .3rem .3rem .3rem rgb(167, 167, 167);    
+
+}
+.photo
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+.photo img
+{
+    border-radius: .5rem;
+    box-shadow: .3rem .3rem .3rem black;    
+}
+.brief
+{
+    text-shadow: .3rem .3rem .3rem rgb(167, 167, 167);    
+    
+}
+
+.History
+{
+    text-shadow: .3rem .3rem .3rem rgb(167, 167, 167);    
+
+}
+
+
+table td
+{
+    padding: .5rem;
+}
+.date
+{
+    background-color: rgb(197, 197, 197);
+}
+table tr:nth-child(even)
+{
+    background-color: rgb(238, 238, 238);
+}
+
+footer 
+{
+    background-color: rgb(197, 197, 197);
+    margin: 3rem 15rem 1rem 15rem ;
+    border-radius: .5rem;
+}
+footer h4
+{
+    padding:0.5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer img
+{
+    width: 5rem;
+
+}
